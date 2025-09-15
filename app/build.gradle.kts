@@ -61,4 +61,7 @@ dependencies {
     implementation(libs.hilt.compose)
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
+    with(projects){
+        implementation(feature.message)
+    }
 }
