@@ -23,3 +23,4 @@ rootProject.name = "Messenger"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
 include(":data:message")
+include(":domain:message")
